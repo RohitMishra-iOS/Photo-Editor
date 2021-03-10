@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4567887D25F1669E004377C1 /* ImageEditingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567887C25F1669E004377C1 /* ImageEditingVC.swift */; };
 		459053C025F144530054AA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459053BF25F144530054AA42 /* AppDelegate.swift */; };
 		459053C225F144530054AA42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459053C125F144530054AA42 /* SceneDelegate.swift */; };
-		459053C425F144530054AA42 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459053C325F144530054AA42 /* CameraVC.swift */; };
 		459053C725F144530054AA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459053C525F144530054AA42 /* Main.storyboard */; };
 		459053C925F144540054AA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459053C825F144540054AA42 /* Assets.xcassets */; };
 		459053CC25F144540054AA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459053CA25F144540054AA42 /* LaunchScreen.storyboard */; };
@@ -18,6 +16,8 @@
 		459053E225F144540054AA42 /* PhotoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459053E125F144540054AA42 /* PhotoEditorUITests.swift */; };
 		45A7355625F155230052F725 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7355525F155230052F725 /* UIViewExtension.swift */; };
 		45A777DB25F929810060370B /* ImageEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A777DA25F929810060370B /* ImageEditingView.swift */; };
+		45A7780225F964E60060370B /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7780025F964E60060370B /* CameraVC.swift */; };
+		45A7780325F964E60060370B /* ImageEditingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7780125F964E60060370B /* ImageEditingVC.swift */; };
 		45AADE9725F2B49E002A8F96 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AADE9625F2B49E002A8F96 /* UIColorExtension.swift */; };
 		45B9BAC025F39203007AAEA6 /* ColourCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9BABF25F39203007AAEA6 /* ColourCollectionDataSource.swift */; };
 		45B9BAC925F39314007AAEA6 /* ColorCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9BAC825F39314007AAEA6 /* ColorCollectionVC.swift */; };
@@ -41,11 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4567887C25F1669E004377C1 /* ImageEditingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditingVC.swift; sourceTree = "<group>"; };
 		459053BC25F144530054AA42 /* PhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459053BF25F144530054AA42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		459053C125F144530054AA42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		459053C325F144530054AA42 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		459053C625F144530054AA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		459053C825F144540054AA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459053CB25F144540054AA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +56,8 @@
 		459053E325F144540054AA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45A7355525F155230052F725 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		45A777DA25F929810060370B /* ImageEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditingView.swift; sourceTree = "<group>"; };
+		45A7780025F964E60060370B /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		45A7780125F964E60060370B /* ImageEditingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEditingVC.swift; sourceTree = "<group>"; };
 		45AADE9625F2B49E002A8F96 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		45B9BABF25F39203007AAEA6 /* ColourCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourCollectionDataSource.swift; sourceTree = "<group>"; };
 		45B9BAC825F39314007AAEA6 /* ColorCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCollectionVC.swift; sourceTree = "<group>"; };
@@ -176,21 +176,12 @@
 		459053FC25F148570054AA42 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				45A777FF25F964E60060370B /* Controller */,
 				45A777D925F929650060370B /* View */,
 				45B9BAC725F392F9007AAEA6 /* Cell */,
 				45B9BABE25F391D8007AAEA6 /* DataSource */,
-				4590540C25F1501D0054AA42 /* Controller  */,
 			);
 			path = Camera;
-			sourceTree = "<group>";
-		};
-		4590540C25F1501D0054AA42 /* Controller  */ = {
-			isa = PBXGroup;
-			children = (
-				459053C325F144530054AA42 /* CameraVC.swift */,
-				4567887C25F1669E004377C1 /* ImageEditingVC.swift */,
-			);
-			path = "Controller ";
 			sourceTree = "<group>";
 		};
 		45A7355425F155090052F725 /* Extensions */ = {
@@ -208,6 +199,15 @@
 				45A777DA25F929810060370B /* ImageEditingView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		45A777FF25F964E60060370B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45A7780025F964E60060370B /* CameraVC.swift */,
+				45A7780125F964E60060370B /* ImageEditingVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		45B9BABE25F391D8007AAEA6 /* DataSource */ = {
@@ -356,15 +356,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459053C425F144530054AA42 /* CameraVC.swift in Sources */,
 				459053C025F144530054AA42 /* AppDelegate.swift in Sources */,
 				45AADE9725F2B49E002A8F96 /* UIColorExtension.swift in Sources */,
+				45A7780325F964E60060370B /* ImageEditingVC.swift in Sources */,
 				45A7355625F155230052F725 /* UIViewExtension.swift in Sources */,
+				45A7780225F964E60060370B /* CameraVC.swift in Sources */,
 				459053C225F144530054AA42 /* SceneDelegate.swift in Sources */,
 				45A777DB25F929810060370B /* ImageEditingView.swift in Sources */,
 				45B9BAC025F39203007AAEA6 /* ColourCollectionDataSource.swift in Sources */,
 				45B9BAC925F39314007AAEA6 /* ColorCollectionVC.swift in Sources */,
-				4567887D25F1669E004377C1 /* ImageEditingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
